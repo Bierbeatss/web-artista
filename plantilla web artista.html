@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web para Artistas</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .card {
+      background-color: #1e1e2f;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+      padding: 30px;
+      width: 360px;
+      max-width: 90%;
+      position: relative;
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card h2 {
+      font-size: 1.3rem;
+      color: #facc15;
+      margin-bottom: 20px;
+    }
+
+    .icon-list {
+      text-align: left;
+      margin: 20px 0;
+    }
+
+    .icon-list p {
+      margin: 10px 0;
+      font-size: 0.95rem;
+    }
+
+    .icon {
+      margin-right: 8px;
+      color: #0ff;
+    }
+
+    .button {
+      background: #facc15;
+      color: #1e1e2f;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #ffe14d;
+    }
+
+    .footer {
+      font-size: 0.8rem;
+      margin-top: 20px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¿Eres artista y no tienes web?</h1>
+    <h2>Yo te creo una página pro con tu estilo</h2>
+
+    <div class="icon-list">
+      <p>📱 <strong>Bio, links, música y diseño</strong></p>
+      <p>⏱️ <strong>Entrega en 48 hrs – Precio Express</strong></p>
+    </div>
+
+    <button class="button" onclick="window.location.href='https://instagram.com/tuperfil'">
+      Escríbeme al DM HOY
+    </button>
+
+    <div class="footer">
+      Diseñado para artistas emergentes.
+    </div>
+  </div>
+</body>
+</html>
